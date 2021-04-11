@@ -2,12 +2,10 @@
 using namespace std;
 main()
 {
-int a,b,c;
-cout<<"enter a value";
-cin>>a;
-cout<<"enter b value";
-cin>>b;
-c=a+b;
-cout<<"\n c="<<c;
+float a,b,Product;
+cout<<"Enter two numbers:";
+cin>>a>>b;
+Product=a*b;
+cout<<"Product="<<Product;
 return 0;
 }
